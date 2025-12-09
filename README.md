@@ -1,7 +1,7 @@
-## carDealershipRDBMS
+## carHire RDBMS
 
 # Overview
-This is part of a group project was developed as part of a university SQLite unit and focuses on designing and implementing a relational database system for a car dealership / vehicle hire business. Whilst given a scenario of a real-world business and how it would function, the use of database normalisation, referential integrity, constraints, and triggers accurately reflects the criteria of the scenario and models how a RDBMS would be applied in the real world. The schema supports personal and company clients, vehicle bookings and hires, depots, pricing tariffs, insurance, invoicing, and operational constraints
+This is part of a group project was developed as part of a university SQLite unit and focuses on designing and implementing a relational database system for a vehicle hire business. Whilst given a scenario of a real-world business and how it would function, the use of database normalisation, referential integrity, constraints, and triggers accurately reflects the criteria of the scenario and models how a RDBMS would be applied in the real world. The schema supports personal and company clients, vehicle bookings and hires, depots, pricing tariffs, insurance, invoicing, and operational constraints
 
 # Key Features of the Schema
 The schema includes various features including:
