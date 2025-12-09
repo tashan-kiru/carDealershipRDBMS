@@ -1,0 +1,36 @@
+﻿Case Study
+The car hire firm Happy-Holidays, requires a database system to manage their fleet of hire
+vehicles. Each vehicle in the fleet has a unique fleet membership number (N 3). Also recorded
+is the vehicle's registration number (S 7), colour (S 20), and make (S 8). All cars are the current
+model. If a car is fitted with a mobile phone, its phone number (S 12) is recorded.
+Happy-Holidays has multiple depots. Each depot has an identification code (N 2). The following
+information for each depot is also recorded: depot's address (A), 1 to 4 phone numbers (S 14),
+and an email address(S 24). The current location (depot) of vehicles available for hire is
+recorded.
+
+The firm has several different types of daily hire tariffs. For each type, an identification code (S
+2) is recorded only with a description of the conditions under which it applies (S 50). For each
+make of car, the daily rental tariff ($ 3) is recorded for each of the tariff types. Also daily
+insurance tariff ($ 3) is recorded.
+
+When a vehicle is hired, the depot from which it is hired, and the hire time and date (D) are
+recorded. The hirer (client) involved is recorded along with the type (S 2) and number (S 20) of
+the credit card to be used to pay for that hire. There will be one or up to three persons recorded
+as being nominated drivers of the hired vehicle (None of these have to be the hirer). A vehicle's
+odometer reading (N 5) (distance travelled) is recorded when it is hired. At any one time, only
+one vehicle is on hire to a customer. Also recorded is the applicable tariff type, the number of
+hire days (N 2) and an indication (S 1) as to whether insurance has been taken out for each hire.
+
+A make of vehicle may also be booked for a future hiring, in which case, the nominated pick-up
+depot, the starting time and date for the booking (D), and the intended number of hire days (N2)
+are recorded. An optional preferred colour (S 12) may be recorded. A client may make any
+number of bookings. A vehicle can be one of the following types: EV, Hybrid, Fuel.
+
+The firm records the individual details of any client the first time that the person or the
+company1 has business with the company. A client's name (C), address (A), one or two contact
+phone numbers (S 14), and one or two email address (S 20) are recorded along with a
+generated unique client identifier. This identifier is used for all subsequent references to that
+client. If the client is a company, they must have a (single) nominated person also recorded as
+their representative. The details of such representatives are recorded as though they were
+person clients. A (person) client's driver's license number (S 12) is recorded the first time that
+they hire a vehicle or are a nominated driver
